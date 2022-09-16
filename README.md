@@ -6,8 +6,10 @@ This is the starter code base for the "Refactoring to Hexagonal Architecture" co
 
 You **must have** the following already set up and running on your machine:
 
-* Java 17 or later
-* A development environment such as IntelliJ IDEA (recommended) or Eclipse
+* Java 17 (or later)
+* git 2.23 (or later)
+* IntelliJ IDEA 2021.2 (or later) _Community_ or _Ultimate_ Editions
+    * or Eclipse (if you must, though all course examples will use IntelliJ IDEA)
 
 # Setting Up Project
 
