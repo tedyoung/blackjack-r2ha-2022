@@ -38,7 +38,8 @@ public class Game {
                                    .cursor(3, 1)
                                    .fgBrightBlack().a("Hit [ENTER] to start..."));
 
-        System.console().readLine();
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
     }
 
     private static void displayWelcomeScreen() {
