@@ -23,8 +23,6 @@ Before opening up the project using your development environment, make sure that
 mvnw verify
 ```
 
-If you get errors about dependencies being unavailable, that means your machine isn't set up correctly to get the dependencies from your artifact repository. Please work with your tech support or your colleagues to resolve this issue as it completely depends on your machine's VPN and security set up.
-
 Once the project compiles from the command-line, open it in your development environment and ensure that you can run all of the unit tests -- if everything is set up properly, they will all pass.
 
 ## Running and Playing the Game
@@ -43,7 +41,8 @@ To do this, use Maven to build and package the JAR and then you can run it:
 mvnw clean package
 ```
 
-This will download dependencies, compile the code, run the tests, and then package it into a JAR file that it will put in the `target` directory. To run it, do the following:
+This will download dependencies, compile the code, run the tests, and then package it into a JAR file that it will put
+in the `target` directory. To run it, do the following at the command-line in the project's directory:
 
 ### macOS/Linux:
 
@@ -101,9 +100,10 @@ Each round proceeds as follows:
 
 ### Dealer's Turn
 
-Once all players have either busted or stood, it's the dealer's turn to play. They turn their face-down card over. They
-then hit until their score is 17 or higher at which point they must stand. The dealer cannot decide to hit or stand, if
-their hand's score is 16 or lower, they must hit, and at 17 or higher, they must stand.
+Once all players have either busted or stood, it's the dealer's turn to play. They turn their face-down card over so the
+card's Rank and Suit are shown. They then hit until their score is 17 or higher at which point they must stand. The
+dealer cannot decide to hit or stand, if their hand's score is 16 or lower, they must hit, and at 17 or higher, they
+must stand.
 
 If the dealer busts, any players who did not bust earlier automatically win the round. Otherwise, each player wins if
 they have a strictly higher score than the dealer, or loses if they have a strictly lower score, and "pushes" (ties) if
