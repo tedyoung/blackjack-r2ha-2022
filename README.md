@@ -14,7 +14,7 @@ You **must have** the following already set up and running on your machine:
       openjdk version "17.0.4.1" 2022-08-12
       ```
 * git 2.23 (or later)
-* IntelliJ IDEA 2021.2 (or later) _Community_ or _Ultimate_ Editions
+* IntelliJ IDEA 2021.2.4 (or the latest minor release for 2022.2) _Community_ or _Ultimate_ Editions
     * or Eclipse (if you must, though all course examples will use IntelliJ IDEA)
 
 # Setting Up the Project
