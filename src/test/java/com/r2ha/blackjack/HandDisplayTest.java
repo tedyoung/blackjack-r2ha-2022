@@ -15,7 +15,7 @@ public class HandDisplayTest {
                 new Card(Suit.CLUBS, Rank.JACK));
         Hand hand = new Hand(cards);
 
-        assertThat(hand.displayFaceUpCard())
+        assertThat(ConsoleHand.displayFaceUpCard(hand))
                 .isEqualTo("[31m┌─────────┐[1B[11D│A        │[1B[11D│         │[1B[11D│    ♥    │[1B[11D│         │[1B[11D│        A│[1B[11D└─────────┘");
     }
 
