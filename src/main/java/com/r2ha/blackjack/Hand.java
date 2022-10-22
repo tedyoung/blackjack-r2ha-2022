@@ -2,7 +2,7 @@ package com.r2ha.blackjack;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.fusesource.jansi.Ansi.ansi;
 
@@ -44,14 +44,11 @@ public class Hand {
     }
 
     void display() {
-        System.out.println(cardsAsString());
+        System.out.println(ConsoleHand.cardsAsString(this));
     }
 
-    public String cardsAsString() {
-        return cards.stream()
-                    .map(ConsoleCard::display)
-                    .collect(Collectors.joining(
-                            ansi().cursorUp(6).cursorRight(1).toString()));
+    public Stream<Card> cards() {
+        return cards.stream();
     }
 
     public void drawFrom(Deck deck) {
