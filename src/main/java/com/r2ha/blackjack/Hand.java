@@ -62,8 +62,4 @@ public class Hand {
     boolean beats(Hand hand) {
         return hand.value() < value();
     }
-
-    public boolean valueEquals(int target) {
-        return value() == target;
-    }
 }
