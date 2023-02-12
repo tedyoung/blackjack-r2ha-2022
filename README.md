@@ -8,14 +8,14 @@ course.
 You **must have** the following already set up and running on your machine:
 
 * Java 17 (or later)
-    * Ensure that this is the default Java runtime by typing `java -version`
-      and you should see something like:
-      ```
-      openjdk version "17.0.4.1" 2022-08-12
-      ```
-* git 2.23 (or later)
-* IntelliJ IDEA 2021.2.4 (or the latest minor release for 2022.2) _Community_ or _Ultimate_ Editions
-    * or Eclipse (if you must, though all course examples will use IntelliJ IDEA)
+  * Ensure that this is the default Java runtime by typing `java -version`
+    at the command line, and you should see something like:
+    ```
+    openjdk version "17.0.4.1" 2022-08-12
+    ```
+* git 2.36 (or later)
+* IntelliJ IDEA 2022.3.2 (or later), either the _Community_ or _Ultimate_ Edition
+  * or Eclipse (if you must, though all course examples will use IntelliJ IDEA)
 
 # Setting Up the Project
 
