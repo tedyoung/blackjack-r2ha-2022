@@ -1,4 +1,4 @@
-package com.r2ha.blackjack;
+package com.r2ha.blackjack.domain;
 
 public enum Rank {
     ACE(1, "A"),

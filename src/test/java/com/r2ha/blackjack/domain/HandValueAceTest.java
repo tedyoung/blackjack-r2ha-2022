@@ -1,4 +1,4 @@
-package com.r2ha.blackjack;
+package com.r2ha.blackjack.domain;
 
 import org.junit.jupiter.api.Test;
 

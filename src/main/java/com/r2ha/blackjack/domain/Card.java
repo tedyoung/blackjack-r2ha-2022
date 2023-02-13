@@ -1,4 +1,4 @@
-package com.r2ha.blackjack;
+package com.r2ha.blackjack.domain;
 
 public class Card {
     private final Suit suit;
