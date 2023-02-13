@@ -18,7 +18,7 @@ public enum Suit {
         return symbol;
     }
 
-    boolean isRed() {
+    public boolean isRed() {
         return isRed;
     }
 }
