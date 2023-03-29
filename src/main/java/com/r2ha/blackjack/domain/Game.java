@@ -57,6 +57,10 @@ public class Game {
                                    .fgBlack().a(" Blackjack game"));
     }
 
+    public static void directOutputTo(PrintStream printStream) {
+        consoleOut = printStream;
+    }
+
     public Game() {
         deck = new Deck();
     }
