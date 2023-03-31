@@ -18,6 +18,8 @@ public class Game {
     private final Hand dealerHand = new Hand();
     private final Hand playerHand = new Hand();
 
+    private boolean playerDone;
+
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
         displayWelcomeScreen();
@@ -174,4 +176,17 @@ public class Game {
         consoleOut.println(" (" + playerHand.value() + ")");
     }
 
+
+    public void playerHits() {
+        playerHand.drawFrom(deck);
+        playerDone = playerHand.isBusted();
+    }
+
+    public void playerStands() {
+        playerDone = true;
+    }
+
+    public boolean isPlayerDone() {
+        return playerDone;
+    }
 }
